@@ -1,8 +1,10 @@
 import mongoose from "mongoose"
-// require('dotenv').config();
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const connectDB = async() =>{
-    await mongoose.connect(`mongodb+srv://memesaicrypto:QiCsXHWAuZHwNq3M@quizapp.bvsrq.mongodb.net/`)
+    await mongoose.connect(`${process.env.MONGO_URI}`)
     .then(console.log("db connected successfully"))
     .catch((error) => {
         console.log("Error during db Connection")
