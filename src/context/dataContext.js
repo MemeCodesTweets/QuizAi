@@ -76,10 +76,8 @@ export const DataProvider = ({children}) => {
     setSelectedAnswer('');
     setQuestionIndex(0);
     setMarks(0);
-    const wrongBtn = document.querySelector('button.bg-danger');
-    wrongBtn?.classList.remove('bg-danger');
-    const rightBtn = document.querySelector('button.bg-success');
-    rightBtn?.classList.remove('bg-success');
+    const btn = document.querySelector('button.bg-secondary');
+    btn?.classList.remove('bg-secondary');
   }
     return (
         <DataContext.Provider value={{
