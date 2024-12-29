@@ -72,7 +72,7 @@ export const DataProvider = ({ children }) => {
 
         // Send user answers to the backend
         try {
-            const response = await fetch('http://localhost:8800/api/user/submit', {
+            const response = await fetch('https://quizai-1.onrender.com/api/user/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
