@@ -7,8 +7,7 @@
             "React.js",
             "ReactJS",
             "All of the above"
-        ],
-        "answer": "All of the above"
+        ]
     },
     {
         "id": "02",
@@ -18,8 +17,7 @@
             "React.js is easy to integrate with other frameworks such as Angular, BackboneJS since it is only a view library.",
             "React.js can render both on client and server side.",
             "All of the above"
-        ],
-        "answer": "All of the above"
+        ]
     },
     {
         "id": "03",
@@ -29,8 +27,7 @@
             "The library of React.js is pretty large.",
             "The JSX in React.js makes code easy to read and write.",
             "The learning curve can be steep in React.js."
-        ],
-        "answer": "The JSX in React.js makes code easy to read and write."
+        ]
     },
     {
         "id": "04",
@@ -40,8 +37,7 @@
             "npx create-react-app my-app",
             "npm install create-react-app",
             "npm install -f create-react-app"
-        ],
-        "answer": "npx create-react-app my-app"
+        ]
     },
     {
         "id": "05",
@@ -51,8 +47,7 @@
             "Virtual DOM",
             "Both A and B.",
             "None of the above."
-        ],
-        "answer": "Virtual DOM"
+        ]
     },
     {
         "id": "06",
@@ -62,8 +57,7 @@
             "8080",
             "3030",
             "6060"
-        ],
-        "answer": "3000"
+        ]
     },
     {
         "id": "07",
@@ -73,8 +67,7 @@
             "2",
             "3",
             "Unlimited"
-        ],
-        "answer": "1"
+        ]
     },
     {
         "id": "08",
@@ -84,8 +77,7 @@
             "Using the <Each /> component",
             "Using the Array.map() method",
             "With a for/while loop"
-        ],
-        "answer": "Using the Array.map() method"
+        ]
     },
     {
         "id": "09",
@@ -95,8 +87,7 @@
             "Internal storage of the component.",
             "External storage of the component.",
             "None of the above."
-        ],
-        "answer": "Internal storage of the component."
+        ]
     },
     {
         "id": "10",
@@ -106,7 +97,6 @@
             "Services & Components",
             "State & Services",
             "State & Component"
-        ],
-        "answer": "State & Props"
+        ]
     }
 ]
