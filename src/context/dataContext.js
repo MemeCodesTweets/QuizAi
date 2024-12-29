@@ -43,10 +43,10 @@ export const DataProvider = ({children}) => {
       setSelectedAnswer(selected);
 
       if (selected === question.answer) {
-        event.target.classList.add('bg-success');
+        event.target.classList.add('bg-secondary');
         setMarks(marks + 5);
       } else {
-        event.target.classList.add('bg-danger');
+        event.target.classList.add('bg-secondary');
       }
     }
   }
@@ -55,10 +55,8 @@ export const DataProvider = ({children}) => {
   const nextQuestion = () => {
     setCorrectAnswer('');
     setSelectedAnswer('');
-    const wrongBtn = document.querySelector('button.bg-danger');
-    wrongBtn?.classList.remove('bg-danger');
-    const rightBtn = document.querySelector('button.bg-success');
-    rightBtn?.classList.remove('bg-success');
+    const btn = document.querySelector('button.bg-secondary');
+    btn?.classList.remove('bg-secondary');
     setQuestionIndex(questionIndex + 1);
   }
 

@@ -6,7 +6,6 @@ import DataContext, { DataProvider } from './context/dataContext';
 import Leaderboard from './components/Leaderboard';
 
 function App() {
-    const { marks } = useContext(DataContext);
 
     return (
         <DataProvider>
