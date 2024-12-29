@@ -3,7 +3,6 @@ import { User } from "../model/UserModel.js";
 const registerUser = async(req, res) => {
     try {
         const {user} = req.body
-        console.log(user)
 
     
         if(!user){

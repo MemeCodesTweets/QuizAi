@@ -9,7 +9,7 @@ const Leaderboard = () => {
     useEffect(() => {
         const fetchUsers = async () => {
             try {
-                response = await axios.get(`http://localhost:8800/api/user/showuser`);
+                response = await axios.get(`https://quizai-1.onrender.com/api/user/showuser`);
                 setUsers(response.data.data);
                 console.log(response.data.data)
             } catch (err) {
@@ -33,7 +33,6 @@ const Leaderboard = () => {
                             <tr>
                                 <th scope="col">Rank</th>
                                 <th scope="col">Username</th>
-                                <th scope="col">Score</th>
                             </tr>
                         </thead>
                         <tbody>

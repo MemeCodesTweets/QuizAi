@@ -15,7 +15,7 @@ const Result = () => {
         }
 
         try {
-            const response = await axios.post(`http://localhost:8800/api/user/register`, {
+            const response = await axios.post(`https://quizai-1.onrender.com/api/user/register`, {
                 user: username
             });
             setMessage(response.data.message || 'Score submitted successfully!');
